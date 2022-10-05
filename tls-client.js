@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 'use strict';
 
-const port = 8000;
-const hostname = 'localhost';
+const port = 80;
+const hostname = 'memecoinlist.com';
 
 const tls = require('tls');
 const fs = require('fs');

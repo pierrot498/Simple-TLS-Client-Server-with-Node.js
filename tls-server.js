@@ -3,7 +3,7 @@
 
 const tls = require('tls');
 const fs = require('fs');
-const port = 8000;
+const port = 3000;
 
 const options = {
   key: fs.readFileSync('certs/server/server.key'),
